@@ -22,7 +22,7 @@ document.addEventListener('click', (e) => {
     const diffMs = now - startDate;
     const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
     daysEl.textContent = String(days);
-    sinceText.textContent = `Desde 31/05/2022 • Tú y yo, siempre`;
+    sinceText.textContent = `Desde 31/04/2022 • Tú y yo, siempre`;
   }
   update();
   setInterval(update, 60 * 1000);
@@ -156,4 +156,5 @@ document.querySelectorAll('.carousel').forEach(initCarousel);
   }
   setInterval(spawnHeart, 500);
 })();
+
 
