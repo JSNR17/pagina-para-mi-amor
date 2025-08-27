@@ -16,7 +16,7 @@ document.addEventListener('click', (e) => {
   const daysEl = document.getElementById('days-count');
   const sinceText = document.getElementById('since-text');
   if (!daysEl || !sinceText) return;
-  const startDate = new Date('2022-05-31T00:00:00');
+  const startDate = new Date('2022-04-31T00:00:00');
   function update() {
     const now = new Date();
     const diffMs = now - startDate;
@@ -156,5 +156,6 @@ document.querySelectorAll('.carousel').forEach(initCarousel);
   }
   setInterval(spawnHeart, 500);
 })();
+
 
 
