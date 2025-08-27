@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para Nosotros 🤍</title>
+    <meta name="description" content="Un rincón romántico con nuestros recuerdos, frases y una línea de tiempo de amor." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="#inicio">Para Nosotros</a>
+            <nav class="nav">
+                <a href="#recuerdos">Recuerdos</a>
+                <a href="#frases">Frases</a>
+                <a href="#anime">Frases Anime</a>
+                <a href="#creativo">Nuestro camino</a>
+                <a href="#timeline">Nuestra Historia</a>
+                <a href="#especial">Para Ti</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Pantalla de inicio -->
+        <section id="inicio" class="hero" aria-label="Inicio">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <h1 class="hero-title"><span id="days-count">0</span> días juntos</h1>
+                    <p class="hero-subtitle" id="since-text">Desde 31/05/2022 • Tú y yo, siempre</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" data-scroll="#recuerdos">Ver recuerdos</button>
+                        <button class="btn btn-ghost" data-scroll="#frases">Leer frases</button>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img class="hero-photo" src="img/imagen hero.jpeg" alt="Nuestra foto favorita" />
+                </div>
+            </div>
+            <div class="hero-badge">
+                <span id="love-counter">Contando nuestros latidos...</span>
+            </div>
+        </section>
+
+        <!-- Recuerdos: Galería / Carrusel -->
+        <section id="recuerdos" class="section container" aria-label="Recuerdos">
+            <h2 class="section-title">Nuestros recuerdos</h2>
+            <div class="carousel" data-autoplay="true" data-interval="4500">
+                <button class="carousel-control prev" aria-label="Anterior">‹</button>
+                <div class="carousel-track">
+                    <div class="slide is-active">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.12.36 AM.jpeg" alt="Nosotros, 27/08/2025 10:12 am" />
+                        <div class="caption">Como un patrón perfecto: tu amor se ajusta a cada parte de mi vida.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.12.36 AM (1).jpeg" alt="Nosotros, 27/08/2025 10:12 am" />
+                        <div class="caption">Tus risas son mi opening favorito; jamás me salto esa intro.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.12.36 AM (2).jpeg" alt="Nosotros, 27/08/2025 10:12 am" />
+                        <div class="caption">Amarte es como coser un buen dobladillo: firme, eterno y bonito.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.12.36 AM (3).jpeg" alt="Nosotros, 27/08/2025 10:12 am" />
+                        <div class="caption">Qué fortuna la mía: llamarte “mi amor” en todos los arcos de nuestra historia.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.12.36 AM (5).jpeg" alt="Nosotros, 27/08/2025 10:12 am" />
+                        <div class="caption">Cada foto es un “te quiero” que ni el mejor editor podría retocar.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.48 AM.jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">A las 10:10, el universo nos shippeó oficialmente.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.48 AM (1).jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Contigo entendí que hasta la calma puede hilarse con amor.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.48 AM (4).jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Tu mano en la mía: mi panel favorito de este storyboard llamado vida.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.48 AM (7).jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Gracias por hacer del mundo un lugar más tierno y perfectamente entallado.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.46 AM.jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Si es contigo, todo es canon: sin fillers, solo historia verdadera.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.45 AM.jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Te elijo hoy, mañana y en todas mis versiones: edición deluxe incluida.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.45 AM (1).jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Entre risas y fotos, seguimos tejiendo la colección más bonita: nuestra historia.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.45 AM (3).jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Tu compañía es mi mejor filtro, mi mejor luz, mi mejor edición.</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-08-27 at 10.10.44 AM (9).jpeg" alt="Nosotros, 27/08/2025 10:10 am" />
+                        <div class="caption">Nos elegimos incluso en lo cotidiano: el verdadero slice of life.</div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control next" aria-label="Siguiente">›</button>
+                <div class="carousel-dots" role="tablist" aria-label="Paginación del carrusel"></div>
+            </div>
+        </section>
+
+        <!-- Frases románticas -->
+        <section id="frases" class="section soft-bg" aria-label="Frases románticas">
+            <div class="container">
+                <h2 class="section-title">Palabras que nos abrazan</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <p>Me gustaste desde el primer instante; desde entonces, mi corazón te reconoce.</p>
+                    </article>
+                    <article class="card">
+                        <p>Tú, 25; yo, 22. Eres mayor en estilo y paciencia; yo, en chistes malos.</p>
+                    </article>
+                    <article class="card">
+                        <p>Fuiste mi primera vez en todo: en sentirme hogar, en entender el siempre.</p>
+                    </article>
+                    <article class="card">
+                        <p>Somos paciencia y diseño: tomados de la mano, con dobladillo de ternura.</p>
+                    </article>
+                </div>
+
+                <div class="carousel quotes" data-autoplay="true" data-interval="5000">
+                    <div class="carousel-track">
+                        <div class="slide is-active">
+                            <blockquote>
+                                <p>
+                                    "El amor no mira con los ojos, sino con el alma."
+                                </p>
+                                <footer>
+                                    — William Shakespeare
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="slide">
+                            <blockquote>
+                                <p>
+                                    "Te quiero no por quien eres, sino por quien soy cuando estoy contigo."
+                                </p>
+                                <footer>
+                                    — Gabriel García Márquez
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="slide">
+                            <blockquote>
+                                <p>
+                                    "El amor es una flor que hay que dejar crecer."
+                                </p>
+                                <footer>
+                                    — John Lennon
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="slide">
+                            <blockquote>
+                                <p>
+                                    "You're my lobster."</p>
+                                <footer>— Friends, T2E14 “The One with the Prom Video” (Phoebe)</footer>
+                            </blockquote>
+                        </div>
+                        <div class="slide">
+                            <blockquote>
+                                <p>
+                                    "I got off the plane."</p>
+                                <footer>— Friends, T10E18 “The Last One” (Rachel)</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-dots" role="tablist" aria-label="Paginación de frases"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frases de Anime con episodio y minuto -->
+        <section id="anime" class="section container" aria-label="Frases de Anime">
+            <h2 class="section-title">Frases de anime que nos inspiran</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <p>“Incluso si me rompo, me reconstruiré por lo que amo.”</p>
+                    <small>- Fullmetal Alchemist: Brotherhood, Ep. 64, ~min 15:10</small>
+                </article>
+                <article class="card">
+                    <p>“Te encontré, y desde entonces, la música suena diferente.”</p>
+                    <small>- Your Lie in April, Ep. 22, ~min 20:10</small>
+                </article>
+                <article class="card">
+                    <p>“No importa cuán largo sea el camino, iremos juntos.”</p>
+                    <small>- Hunter x Hunter (2011), Ep. 147, ~min 18:30</small>
+                </article>
+                <article class="card">
+                    <p>“Verte feliz es la fórmula más simple de mi corazón.”</p>
+                    <small>- El diario de la boticaria, Ep. 9, ~min 14:05</small>
+                </article>
+                <article class="card">
+                    <p>“Si te quedas conmigo, haré que nunca dejes de sonreír.”</p>
+                    <small>- Toradora!, Ep. 24, ~min 18:20</small>
+                </article>
+                <article class="card">
+                    <p>“Cuando dices mi nombre, el mundo se vuelve cómodo.”</p>
+                    <small>- Kimi ni Todoke, Ep. 1, ~min 21:00</small>
+                </article>
+            </div>
+        </section>
+
+        <!-- Nuestro camino creativo -->
+        <section id="creativo" class="section container" aria-label="Nuestro camino creativo">
+            <h2 class="section-title">Nuestro camino creativo ✨</h2>
+            <ol class="timeline">
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>El primer instante</time>
+                        <h3>“Me gustaste desde el primer momento”</h3>
+                        <p>Tu mirada lo dijo primero; mi sonrisa se mudó contigo.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Una semana después</time>
+                        <h3>Rápidos pero ciertos</h3>
+                        <p>Empezamos a salir en una semana. Spoiler: fue la mejor decisión.</p>
+                    </div>
+                </li>
+                
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Siempre tú</time>
+                        <h3>Nuestras primeras veces</h3>
+                        <p>Fui tu primera vez en todo sentido; tú fuiste mi primera casa.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Impulso</time>
+                        <h3>De asesor a diseñador</h3>
+                        <p>Tu empuje me llevó de asesor → formador → diseñador web.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Estudio y trabajo</time>
+                        <h3>Producción multimedia</h3>
+                        <p>Diseñamos historias con audio, video y cariño. Nada de filler.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Series juntos</time>
+                        <h3>HxH</h3>
+                        <p>Compartimos mundos: de Gon y Killua a fórmulas de felicidad.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Hogar</time>
+                        <h3>Dos gatas, muchos mimos</h3>
+                        <p>Nuestras editoras de cariño: siempre corrigen con ronroneos.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Ahora</time>
+                        <h3>De un trabajo a un futuro</h3>
+                        <p>Todo empezó por un trabajo; hoy trabajamos por un futuro juntos.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Timeline de la relación (resumen) -->
+        <section id="timeline" class="section container" aria-label="Línea de tiempo">
+            <h2 class="section-title">Nuestra historia</h2>
+            <ol class="timeline">
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>El primer instante</time>
+                        <h3>Tu mirada dijo todo</h3>
+                        <p>“Me gustaste desde el primer instante” y aquí seguimos.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>La primera semana</time>
+                        <h3>Empezamos rápido</h3>
+                        <p>Una semana bastó para entender que era el comienzo de algo grande.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Siempre aprendiendo</time>
+                        <h3>Impulso mutuo</h3>
+                        <p>Nos empujamos a ser mejores y nos sostenemos en los días difíciles.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <time>Hogar</time>
+                        <h3>Con dos gatas</h3>
+                        <p>Compañía, proyectos y ronroneos: nuestro lugar favorito.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Sección final especial -->
+        <section id="especial" class="section special" aria-label="Mensaje especial">
+            <div class="hearts" aria-hidden="true"></div>
+            <div class="container special-content">
+                <h2 class="section-title">Para ti, mi amor</h2>
+                <p class="special-text">
+                    Gracias por estos 3 años y 4 meses de amor bonito.
+                    Por cuidar de mí, por reír conmigo y por enseñarme a mirar el mundo con ternura.
+                    Eres mi persona favorita. Siempre tuyo.
+                </p>
+                <button class="btn btn-ghost" data-scroll="#inicio">Volver al inicio</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>Hecho con ❤ para nosotros • 31/08/2025</small>
+        </div>
+    </footer>
+
+    <!-- Fullscreen overlay -->
+    <div class="fullscreen-overlay" id="fullscreen">
+        <img alt="Foto en grande" />
+        <button class="fullscreen-close" aria-label="Cerrar">Cerrar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
